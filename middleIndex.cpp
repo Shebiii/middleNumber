@@ -13,8 +13,6 @@ int main()
        cin>>arr[x];
    }
    for(int x=0;x<size;x++){
-       cout<<"right = "<<right<<endl;
-       cout<<"left = "<<left<<endl;
        if(right<=left){
            if(sum1==sum2){
                 cout<<"the middle index = "<<right;
